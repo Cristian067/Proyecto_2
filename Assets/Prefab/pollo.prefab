@@ -328,6 +328,7 @@ GameObject:
   - component: {fileID: 4088013082501912447}
   - component: {fileID: 8201183432927592876}
   - component: {fileID: 7000749588958908504}
+  - component: {fileID: 5205243415855570017}
   m_Layer: 0
   m_Name: pollo
   m_TagString: Untagged
@@ -400,6 +401,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topBound: 30
   botBound: -10
+--- !u!65 &5205243415855570017
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8003304319150516130}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.7229643, y: 6.601638, z: 8.2045555}
+  m_Center: {x: -0.052960712, y: 3.001111, z: 0.26874012}
 --- !u!1 &8873412903384776493
 GameObject:
   m_ObjectHideFlags: 0

@@ -2810,6 +2810,7 @@ GameObject:
   - component: {fileID: 4044821480991505977}
   - component: {fileID: 7841794976100413918}
   - component: {fileID: 8597651921810536129}
+  - component: {fileID: 8901543038718135177}
   m_Layer: 0
   m_Name: perro
   m_TagString: Untagged
@@ -2902,7 +2903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05878b129b476b944b00974f8d9e59ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5.1
+  speed: 4.2
 --- !u!114 &8597651921810536129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2917,6 +2918,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topBound: 30
   botBound: -10
+--- !u!65 &8901543038718135177
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4566732443895369873}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10365089, y: 0.20716774, z: 0.27045244}
+  m_Center: {x: 0.0018519263, y: 0.095285475, z: 0.031547498}
 --- !u!1 &4602476372198142688
 GameObject:
   m_ObjectHideFlags: 0

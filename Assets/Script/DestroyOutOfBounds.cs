@@ -26,8 +26,11 @@ public class DestroyOutOfBounds : MonoBehaviour
             Destroy(gameObject);
         }
         if(transform.position.z < botBound) 
-        { 
-            Destroy(gameObject); 
+        {
+            
+            Destroy(gameObject);
+            Debug.Log("Te han comido por fallar");
+            Time.timeScale = 0f;
         }
         
     }
